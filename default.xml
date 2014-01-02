@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote name="gnome"
+           fetch="https://github.com/jfdsmabalot" />
+
+  <remote name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-c="true"
+           sync-f="true"
+           sync-j="4" />
+
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
+<project path="kernel/lge/mako" name="platform_kernel_google_msm" remote="gnome" revision="Gnome-kernel-kk-mr1" />
+
+</manifest>
