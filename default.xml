@@ -7,6 +7,9 @@
   <remote name="gnome"
            fetch="https://github.com/jfdsmabalot" />
 
+  <remote name="kiko"
+           fetch="https://bitbucket.org/kikomabalot" />
+
   <remote name="private"
            fetch="ssh://git@github.com" />
 
@@ -17,6 +20,8 @@
            sync-j="4" />
 
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
-<project path="kernel/lge/mako" name="platform_kernel_google_msm" remote="gnome" revision="Gnome-kernel-kk-mr1" />
+<project path="kernel/lge/mako" name="platform_kernel_google_msm" remote="kiko" revision="Gnome-kernel-kk-mr1" />
+<project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="kiko" revision="android-msm-hammerhead-3.4-kitkat-mr1" />
+<project path="kernel/lge/mako-stock" name="platform_kernel_lge_mako" remote="kiko" revision="android-msm-mako-3.4-kitkat-mr1" />
 
 </manifest>
