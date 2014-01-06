@@ -9,6 +9,9 @@
 
   <remote name="kiko"
            fetch="https://bitbucket.org/kikomabalot" />
+           
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod" />        
 
   <remote name="private"
            fetch="ssh://git@github.com" />
