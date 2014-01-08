@@ -5,4 +5,4 @@ Gnome Kernel
 
 Experimental!!!
 
-repo init -u https://bitbucket.org/kikomabalot/platform_kernel_manifest -b gnome-kernel-kitkat
+repo init -u https://bitbucket.org/Gnome509/platform_kernel_manifest -b gnome-kernel-kitkat
