@@ -18,6 +18,10 @@
            
   <remote name="SourceForge"
            fetch="git://git.code.sf.net/p/" />
+           
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/"
+           review="https://review.android.git.linaro.org/" /> 
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -28,6 +32,7 @@
            sync-f="true"
            sync-j="4" />
 
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="linux,arm,common" remote="linaro" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/SM2/arm-eabi-4.8" name="sabermodsmtoolchainsarmeabi48/code" groups="pdk,linux,arm" remote="SourceForge" revision="sm-kk-mr1" />
 <project path="prebuilts/gcc/linux-x86/arm/CFX/arm-eabi-4.8" name="codefireXperiment/prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="jb-devel-mr2-release" groups="pdk,linux,arm" />
