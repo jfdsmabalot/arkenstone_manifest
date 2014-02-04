@@ -17,7 +17,7 @@
            fetch="git://github.com/" />
            
   <remote name="SourceForge"
-           fetch="sourceforge.net/p/" />
+           fetch="http://git.code.sf.net/p/" />
            
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/"
