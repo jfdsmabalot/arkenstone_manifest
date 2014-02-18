@@ -30,5 +30,6 @@
 <project path="kernel/moto/moto-g" name="moto_g_arkenstone" remote="gnome" revision="kk-mr1" />
 <project path="kernel/test/hammerhead" name="arkenstone_test" remote="gnome" revision="master" />
 <project path="kernel/lge/sts-arkenstone" name="hammerhead_sts-arkenstone" remote="gnome" revision="master" />
+<project path="kernel/sony/cm-z1" name="honami_cm-arkenstone" remote="gnome" revision="cm-11.0" />
 
 </manifest>
