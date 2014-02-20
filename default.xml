@@ -31,6 +31,6 @@
 <project path="kernel/test/hammerhead" name="arkenstone_test" remote="gnome" revision="master" />
 <project path="kernel/lge/sts-arkenstone" name="hammerhead_sts-arkenstone" remote="gnome" revision="master" />
 <project path="kernel/sony/cm-z1" name="honami_cm-arkenstone" remote="gnome" revision="cm-11.0" />
-<project path="kernel/samsung/note2" name="ROM/Laboratory/aosp_kernel_note2" remote="github" revision="android-4.4" />
+<project path="kernel/samsung/note2" name="ROMLaboratory/aosp_kernel_note2" remote="github" revision="android-4.4" />
 
 </manifest>
