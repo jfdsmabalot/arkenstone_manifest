@@ -27,7 +27,7 @@
 <project path="prebuilts/gcc/linux-x86/arm/SM3/arm-eabi-4.8" name="sabermodsmtoolchainsarmeabi48/code" remote="SourceForge" revision="master" />
 <project path="kernel/lge/hammerhead" name="hammerhead_arkenstone" remote="gnome" revision="kk-linaro" />
 <project path="kernel/lge/mako-stock" name="mako_arkenstone" remote="gnome" revision="kk-mr1" />
-<project path="kernel/moto/moto-g" name="moto_g_arkenstone" remote="gnome" revision="kk-mr1" />
+<project path="kernel/test/hammerhead" name="arkenstone_test" remote="gnome" revision="master" />
 <project path="kernel/lge/sts-arkenstone" name="hammerhead_sts-arkenstone" remote="gnome" revision="master" />
 
 </manifest>
