@@ -9,9 +9,6 @@
            
   <remote name="github"
            fetch="git://github.com/" />
-           
-  <remote name="SourceForge"
-           fetch="http://git.code.sf.net/p/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -22,12 +19,10 @@
            sync-f="true"
            sync-j="4" />
 
-<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
-<project path="prebuilts/gcc/linux-x86/arm/SM2/arm-eabi-4.8" name="sabermodsmtoolchainsarmeabi48/code" remote="SourceForge" revision="sm-kk-mr1" />
-<project path="prebuilts/gcc/linux-x86/arm/SM3/arm-eabi-4.8" name="sabermodsmtoolchainsarmeabi48/code" remote="SourceForge" revision="master" />
+
 <project path="kernel/lge/hammerhead" name="kernel_hammerhead" remote="gnome" revision="master" />
 <project path="kernel/lge/mako-stock" name="kernel_mako" remote="gnome" revision="master" />
-<project path="kernel/lge/g2" name="kernel_d802" remote="gnome" revision="kk-d802" />
-<project path="kernel/lge/sts" name="AOSPAL/android_kernel_lge_hammerhead-sts" remote="github" revision="master" />
+<project path="kernel/moto/MOTOG" name="kernel_moto-g" remote="gnome" revision="master" />
+<project path="kernel/moto/MOTOX" name="kernel_moto-x" remote="gnome" revision="master" />
 
 </manifest>
