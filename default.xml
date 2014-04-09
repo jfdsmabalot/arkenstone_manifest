@@ -22,6 +22,7 @@
 
 <project path="kernel/lge/hammerhead" name="kernel_hammerhead" remote="gnome" revision="master" />
 <project path="kernel/lge/mako-stock" name="kernel_mako" remote="gnome" revision="master" />
+<project path="kernel/lge/g2" name="kernel_lge_g2" remote="gnome" revision="master" />
 <project path="kernel/moto/MOTOG" name="kernel_moto-g" remote="gnome" revision="master" />
 <project path="kernel/moto/MOTOX" name="kernel_moto-x" remote="gnome" revision="master" />
 <project path="kernel/HTC/M8" name="kernel_sense_m8" remote="gnome" revision="master" />
