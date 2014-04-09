@@ -26,5 +26,7 @@
 <project path="kernel/moto/MOTOG" name="kernel_moto-g" remote="gnome" revision="master" />
 <project path="kernel/moto/MOTOX" name="kernel_moto-x" remote="gnome" revision="master" />
 <project path="kernel/HTC/M8" name="kernel_sense_m8" remote="gnome" revision="master" />
+<project path="kernel/sony/z1" name="kernel_somy_msm8974" remote="gnome" revision="master" />
+
 
 </manifest>
