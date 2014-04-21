@@ -18,6 +18,7 @@
 
 
 <project path="samsung" name="jfdsmabalot/kernel_samsung_msm8974pro" remote="github" revision="SM-G900F" />
+<project path="package" name="jfdsmabalot/kernel_boot_packer" remote="github" revision="master" />
 
 
 </manifest>
