@@ -3,9 +3,6 @@
 
   <remote name="aosp"
            fetch="https://android.googlesource.com" />
-
-  <remote name="gnome"
-           fetch="https://github.com/jfdsmabalot" />
            
   <remote name="github"
            fetch="git://github.com/" />
@@ -13,14 +10,14 @@
   <remote name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
            sync-j="4" />
 
 
-<project path="samsung" name="kernel_samsung_s5" remote="gnome" revision="master" />
+<project path="samsung" name="jfdsmabalot/kernel_samsung_msm8974pro" remote="github" revision="SM-G900F" />
 
 
 </manifest>
