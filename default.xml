@@ -17,6 +17,6 @@
            sync-j="4" />
 
 
-<project path="sony" name="jfdsmabalot/kernel_sony_msm8974" remote="gthub" revision="master" />
+<project path="sony" name="jfdsmabalot/kernel_sony_msm8974" remote="github" revision="master" />
 
 </manifest>
