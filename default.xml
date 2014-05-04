@@ -19,6 +19,6 @@
 
 <project path="samsung" name="jfdsmabalot/kernel_samsung_msm8974pro" remote="github" revision="master" />
 <project path="package" name="jfdsmabalot/kernel_boot_packer" remote="github" revision="master" />
-<project path="ramdisk" name="jfdsmabalot/kernel_ramdisk_s5" remote="github" revision="master" />
+<project path="ramdisk" name="jfdsmabalot/kernel_ramdisk_s5" remote="github" revision="arkenstone" />
 
 </manifest>
