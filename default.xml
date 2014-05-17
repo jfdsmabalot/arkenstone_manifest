@@ -20,7 +20,7 @@
            sync-j="4" />
 
 
-<project path="hammerhead" name="kikomachine/kernel_hammerhead" remote="bitbucket" revision="master" />
+<project path="hammerhead" name="kikomachine/kernel_hammerhead" remote="bitbucket" revision="kk-mr1" />
 <project path="mako" name="jfdsmabalot/kernel_mako" remote="github" revision="master" />
 
 
