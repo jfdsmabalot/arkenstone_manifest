@@ -6,6 +6,9 @@
            
   <remote name="github"
            fetch="git://github.com/" />
+           
+  <remote name="bitbucket"
+            fetch="https://bitbucket.org/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -17,7 +20,7 @@
            sync-j="4" />
 
 
-<project path="hammerhead" name="jfdsmabalot/kernel_hammerhead" remote="github" revision="master" />
+<project path="hammerhead" name="kikomachine/kernel_hammerhead" remote="bitbucket" revision="master" />
 <project path="mako" name="jfdsmabalot/kernel_mako" remote="github" revision="master" />
 
 
