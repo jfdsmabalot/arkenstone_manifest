@@ -17,6 +17,6 @@
            sync-j="4" />
 
 
-<project path="sony" name="jfdsmabalot/kernel_sony_msm8974" remote="bitbucket" revision="kitkat" />
+<project path="sony" name="kikomachine/kernel_sony_msm8974" remote="bitbucket" revision="kitkat" />
 
 </manifest>
