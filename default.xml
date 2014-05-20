@@ -4,8 +4,8 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com" />
            
-  <remote name="github"
-           fetch="git://github.com/" />
+  <remote name="bitbucket"
+           fetch="https://bitbucket.org/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -17,7 +17,6 @@
            sync-j="4" />
 
 
-<project path="sony" name="jfdsmabalot/kernel_sony_msm8974" remote="github" revision="master" />
-<project path="anykernel" name="osm0sis/AnyKernel2" remote="github" revision="master" />
+<project path="sony" name="jfdsmabalot/kernel_sony_msm8974" remote="bitbucket" revision="kitkat" />
 
 </manifest>
