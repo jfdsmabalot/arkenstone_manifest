@@ -18,5 +18,6 @@
 
 
 <project path="hammerhead" name="cyanhackx/kernel_lge_hammerhead" remote="bitbucket" revision="cm-11.0" />
+<project path="cm_ramdisk" name="cyanhackx/cyanogenmod_ramdisk" remote="bitbucket" revision="master" />
 
 </manifest>
