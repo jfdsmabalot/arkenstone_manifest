@@ -20,7 +20,7 @@
            sync-j="4" />
 
 
-<project path="hammerhead" name="emceethemouth/kernel_hammerhead" remote="github" revision="kk-mr1" />
+<project path="hammerhead" name="jfdsmabalot/kernel_hammerhead" remote="github" revision="master" />
 <project path="mako" name="jfdsmabalot/kernel_mako" remote="github" revision="master" />
 
 
